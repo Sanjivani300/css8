@@ -1,0 +1,182 @@
+/* #wrapper{
+    padding: 20px;
+    margin: 100px;
+    background-color: yellow;
+    transform:matrix(1, -0.2, 0, 1, 0, 0);
+} 
+a{
+    text-decoration: none;
+    background-color: indianred;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+} */       
+
+/* transform:matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()); */
+
+/*  CSS 3D transforms
+    Syntex:
+    transform: perspective(300px) rotate3d(X or Y or Z then angle)    
+               perspective-origin: 50% 50%   */
+
+
+/*#cover{
+    border: 2px solid red;
+    height:200px;
+    width:200px;
+    margin: 150px;
+}
+#content{
+    height:200px;
+    width:200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) rotate(0px, 0px, 50px, 30deg);
+}*/
+
+/*#cover{
+    border: 2px solid red;
+    height:200px;
+    width:200px;
+    margin: 150px;
+}
+#content{
+    height:200px;
+    width:200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) translate3d(50px, 50px, 50px);
+}*/
+
+/* #div1{
+    height: 100px;
+    width:100px;
+    background-color:red ;
+    margin:100px ;
+}
+#div1:hover{
+    width:200px;
+} */ 
+
+/* #div1{
+    height: 100px;
+    width:100px;
+    background-color:red ;
+    margin:100px ;
+    transition-property:width;
+    transition-duration: 500ms;
+    transition-delay:500ms ;
+}
+#div1:hover{
+    width:200px;
+} */
+
+/* #div1{
+    height: 100px;
+    width:100px;
+    background-color:red ;
+    margin:100px ;
+    transition-property:width;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+#div1:hover{
+    width:200px;
+} */
+
+/* #div1{
+    height: 100px;
+    width:100px;
+    background-color:red ;
+    margin:100px ;
+    transition-timing-function:ease-in-out;
+    transition: width 2s, height 3s;
+}
+#div1:hover{
+    height:300px;
+    width:200px;
+}   ...................................................*/
+
+/* #animate{
+    background-color: red;
+    height:200px;
+    width:200px;
+} */   
+
+/* from=start   to=end */
+
+/* @keyframes changecolor{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+#animate{
+    background-color: red;
+    height:200px;
+    width:200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+}    0s 0.5s 1s 1.5s 2s*/
+
+/* @keyframes changecolor{
+    0% {background-color:red; border-radius:0%;}
+    10% {background-color:firebrick; border-radius:10%;}
+    20% {background-color:greenyellow; border-radius:20%;}
+    30% {background-color:hotpink; border-radius:30%;}
+    40% {background-color:purple; border-radius:40%;}
+    50% {background-color:teal; border-radius:50%;}
+    60% {background-color:darkblue; border-radius:40%;}
+    70% {background-color:coral; border-radius:30%;}
+    80% {background-color:wheat; border-radius:20%;}
+    90% {background-color:olive; border-radius:10%;}
+    100% {background-color:turquoise; border-radius:0%;}
+}
+#animate{
+    background-color: red;
+    height:300px;
+    width:300px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}   */
+
+/* @keyframes changecolor{
+    0% {background-color: rebeccapurple;}
+    25% {width: 300px;}
+    50% {background-color:hotpink;}
+    75% {width: 200px;}
+    100% {background-color: indianred;}
+}
+#animate{
+    background-color: red;
+    height:200px;
+    width:200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+} 
+#animate2{
+    background-color: red;
+    height:200px;
+    width:200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse ;
+} */
+
+/* @media screen{
+    p{
+        font-size: 20px;
+    }
+}
+@media print{
+    p{
+        font-size: 30px;
+    }
+    img{
+        display: none;
+    }
+    div{
+        width:50%;
+    }
+}    */
+
